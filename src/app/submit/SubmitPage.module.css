@@ -1,0 +1,92 @@
+.gridWrapper {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Sidebar stepper */
+.sidebar {
+  position: sticky;
+  top: 1rem;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar li + li {
+  margin-top: 1rem;
+}
+.sidebar span {
+  font-size: 1rem;
+  color: #6b7280;
+}
+.stepActive {
+  color: #3d52a9;
+  font-weight: 600;
+}
+
+/* Main content */
+.mainContent {
+  overflow-x: hidden;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.tc {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Dropzone overrides */
+.dropzoneWrapper {
+  margin-bottom: 1rem;
+}
+.dropzone {
+  border: 2px dashed #d1d5db;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #f9fafb;
+  transition: background-color .3s, border-color .3s;
+}
+.dropzone:hover,
+.active {
+  border-color: #3d52a9;
+  background-color: #eff6ff;
+}
+.placeholder {
+  color: #6b7280;
+}
+.filePreview {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.previewIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.fileName {
+  font-weight: 500;
+  color: #1f2937;
+}
+.fileSize {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+.errorText {
+  color: #dc2626;
+  font-size: 0.875rem;
+}
