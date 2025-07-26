@@ -1,6 +1,7 @@
 // src/components/Footer.tsx
 import Link from 'next/link';
 import styles from '@/app/LandingPage.module.css';
+import '../globals.css';
 
 export default function Footer() {
   return (

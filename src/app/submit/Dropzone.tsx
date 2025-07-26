@@ -1,6 +1,7 @@
 'use client';
 import { useRef, useState, DragEvent, ChangeEvent, useCallback } from 'react';
 import styles from './SubmitPage.module.css';
+import '../globals.css';
 
 
 export interface FileWithPreview extends File {

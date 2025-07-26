@@ -51,3 +51,15 @@ a {
     box-shadow 0.4s ease,
     border-color 0.4s ease;
 }
+html {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+body {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+button {
+  transition: color 0.4s ease, background-color 0.4s ease;
+}
+a:hover {
+  cursor: pointer;
+}

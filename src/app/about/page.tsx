@@ -1,5 +1,6 @@
 'use client';
 import styles from '../LandingPage.module.css';
+import '../globals.css';
 
 export default function AboutPage() {
   return (

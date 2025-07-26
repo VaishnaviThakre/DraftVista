@@ -313,26 +313,12 @@ body {
 }
 
 
-:global(html) {
-  transition: background-color 0.4s ease, color 0.4s ease;
-}
-
-:global(body) {
-  transition: background-color 0.4s ease, color 0.4s ease;
-}
-
 .featureCard {
 
   transition: background-color 0.4s ease, color 0.4s ease, box-shadow 0.4s ease;
 }
 
-:global(a),
-:global(button) {
-  transition: color 0.4s ease, background-color 0.4s ease;
-}
-:global(a:hover) {
-  cursor: pointer;
-}
+
 /* Feedback Section */
 .feedbackSection {
   background-color: var(--color-bg-light);

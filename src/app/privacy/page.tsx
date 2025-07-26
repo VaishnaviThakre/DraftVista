@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import shared from '../LandingPage.module.css';
 import styles from './PrivacyPage.module.css';
+import '../globals.css';
 
 export default function PrivacyPage() {
   return (

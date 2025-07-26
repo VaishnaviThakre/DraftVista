@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ResultsClient } from './results-client';
 
+
 export const metadata: Metadata = {
   title: 'Analysis Results | DraftVista',
   description: 'View your manuscript analysis results',

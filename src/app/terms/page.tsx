@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import shared from '../../app/LandingPage.module.css';
-import styles from './terms.module.css'
+import styles from './terms.module.css';
+import '../globals.css';
 
 export default function TermsPage() {
   return (

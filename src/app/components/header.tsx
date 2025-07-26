@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from '@/app/LandingPage.module.css';
+import '../globals.css';
 
 export default function Header() {
   return (
