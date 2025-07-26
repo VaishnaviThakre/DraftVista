@@ -42,13 +42,10 @@ export default function SubmitPage() {
         formData.append('reviewerComments', comments);
       }
       
-      // Get base API URL from environment variable
-      const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
-      
       // Determine API endpoint based on submission status
       const endpoint = status === 'Submitted' 
-        ? `${baseUrl}/api/analyze-post-rejection`
-        : `${baseUrl}/api/analyze-pre-submission`;
+        ? 'http://localhost:3001/api/analyze-post-rejection'
+        : 'http://localhost:3001/api/analyze-pre-submission';
       
       console.log(`Submitting to: ${endpoint}`);
       

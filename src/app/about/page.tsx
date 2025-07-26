@@ -20,7 +20,7 @@ export default function AboutPage() {
           <div className={styles.aboutContent}>
             <p className={styles.bodyText}>
               Hi, I’m <strong>Vaishnavi Pravin Thakre</strong>, a BTech
-              graduate, In my work helping researchers prepare and submit
+              graduate, When preparing and submitting
               manuscripts, I’ve seen how easily papers get held up or
               rejected—be it because of mismatched formatting, unclear
               objectives, language mistakes, or journal scope misalignment.
