@@ -1,9 +1,18 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
   --primary: #3d52a9;
+  --font-primary: 'Asul', serif;
+  --bg-light: #f8fafc;
+  --bg-alt: #f1f5f9;
+  --text-color: #1e293b;
+  --card-shadow-hover: rgba(0, 0, 0, 0.1);
+  --card-bg-hover: #ffffff;
+  --features-bg: #f8fafc;
+  --color-bg-light: #f8fafc;
 }
 
 .dark {
